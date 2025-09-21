@@ -1,0 +1,13 @@
+/* style.css */
+body{font-family: Arial, sans-serif; background:#f6f7fb; margin:0; padding:30px}
+.container{max-width:600px;margin:0 auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+h1{margin:0 0 16px;font-size:24px}
+.add-form{display:flex;gap:8px;margin-bottom:16px}
+.add-form input{flex:1;padding:10px;border:1px solid #ddd;border-radius:6px}
+.add-form button{padding:10px 14px;border:0;border-radius:6px;cursor:pointer}
+.tasks{list-style:none;padding:0;margin:0}
+.tasks li{display:flex;justify-content:space-between;align-items:center;padding:10px;border-bottom:1px solid #f0f0f0}
+.tasks li .done{text-decoration:line-through;color:#888}
+.actions a{margin-left:6px;text-decoration:none;padding:6px 8px;border-radius:6px;border:1px solid #ddd}
+.actions a.del{border-color:#f5c6cb;color:#a94442}
+.empty{color:#666}
